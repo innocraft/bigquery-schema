@@ -1,0 +1,97 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "sitesearch_category_parameters",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sitesearch_keyword_parameters",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "excluded_user_agents",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "excluded_parameters",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "keep_url_fragment",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "exclude_unknown_urls",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "creator_login",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "excluded_ips",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ecommerce",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idsite",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timezone",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ts_created",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sitesearch",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "main_url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "excluded_referrers",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "group",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  }
+]

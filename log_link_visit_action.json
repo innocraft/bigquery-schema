@@ -1,0 +1,257 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_content_interaction",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_event_category",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_content_piece",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_cat5",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_cat2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "search_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_cat",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_12",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_15",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_content_name",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "pageview_position",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_dom_processing",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_13",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_dom_completion",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_10",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_9",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_8",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_4",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idvisitor",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "server_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_url_ref",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_6",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_network",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_5",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_server",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_float",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "product_price",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_sku",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_on_load",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_1",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idvisit",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_name_ref",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_cat3",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "search_cat",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_event_action",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_url",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idsite",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idlink_va",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_7",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idpageview",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_product_cat4",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_transfer",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_14",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_spent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_spent_ref_action",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_content_target",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "custom_dimension_3",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "idaction_name",
+    "type": "INTEGER"
+  }
+]
