@@ -1,0 +1,5 @@
+{"mode":"NULLABLE","name":"url_prefix","type":"STRING"}
+{"mode":"NULLABLE","name":"idaction","type":"INTEGER"}
+{"mode":"NULLABLE","name":"type","type":"INTEGER"}
+{"mode":"NULLABLE","name":"name","type":"STRING"}
+{"mode":"NULLABLE","name":"hash","type":"INTEGER"}
