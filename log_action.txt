@@ -1,0 +1,5 @@
+url_prefix:STRING,
+idaction:INTEGER,
+type:INTEGER,
+name:STRING,
+hash:INTEGER
