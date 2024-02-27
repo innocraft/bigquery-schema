@@ -1,0 +1,51 @@
+[
+  {
+    "name": "deleted_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "deleted",
+    "mode": "NULLABLE",
+    "type": "BOOLEAN",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "activated",
+    "mode": "NULLABLE",
+    "type": "BOOLEAN",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "created_date",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "idgoal",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "idsite",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": null,
+    "fields": []
+  },
+  {
+    "name": "idfunnel",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": null,
+    "fields": []
+  }
+]

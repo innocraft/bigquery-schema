@@ -1,0 +1,16 @@
+[
+    {
+      "name": "idloghsr",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "idsitehsr",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    }
+  ]
