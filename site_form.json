@@ -1,100 +1,77 @@
 [
   {
+    "name": "auto_created",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
     "name": "conversion_rule_option",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "conversion_rules",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "created_date",
-    "mode": "NULLABLE",
-    "type": "TIMESTAMP",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "updated_date",
-    "mode": "NULLABLE",
-    "type": "TIMESTAMP",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "auto_created",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "match_form_rules",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "status",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "idsiteform",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "in_overview",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "idsite",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "fields",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
+    "type": "DATETIME",
+    "mode": "NULLABLE"
   },
   {
     "name": "description",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fields",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idgoal",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idsite",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idsiteform",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "in_overview",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "match_form_rules",
+    "type": "STRING",
+    "mode": "NULLABLE"
   },
   {
     "name": "match_page_rules",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "name",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "updated_date",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
   }
 ]
