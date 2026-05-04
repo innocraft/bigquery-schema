@@ -1,22 +1,22 @@
 [
   {
     "name": "compressed",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "hash",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idhsrblob",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "value",
-    "type": "BYTES",
+    "type": "STRING",
     "mode": "NULLABLE"
   }
 ]

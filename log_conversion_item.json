@@ -1,42 +1,42 @@
 [
   {
     "name": "deleted",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_category",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_category2",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_category3",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_category4",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_category5",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_name",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_sku",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -46,27 +46,27 @@
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisit",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisitor",
-    "type": "BYTES",
+    "type": "STRING",
     "mode": "NULLABLE"
   },
   {
     "name": "price",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   },
   {
     "name": "quantity",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {

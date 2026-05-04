@@ -1,42 +1,42 @@
 [
   {
     "name": "event_type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idhsrblob",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idhsrevent",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idloghsr",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idselector",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "time_since_load",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "x",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "y",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   }
 ]

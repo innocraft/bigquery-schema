@@ -1,7 +1,7 @@
 [
   {
     "name": "auto_created",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -31,22 +31,22 @@
   },
   {
     "name": "idgoal",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idsiteform",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "in_overview",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {

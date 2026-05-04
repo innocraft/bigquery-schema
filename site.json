@@ -11,12 +11,12 @@
   },
   {
     "name": "ecommerce",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "exclude_unknown_urls",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -46,12 +46,12 @@
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "keep_url_fragment",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "name": "sitesearch",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {

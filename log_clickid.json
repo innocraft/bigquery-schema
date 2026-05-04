@@ -11,12 +11,12 @@
   },
   {
     "name": "idvisit",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisitor",
-    "type": "BYTES",
+    "type": "STRING",
     "mode": "NULLABLE"
   },
   {

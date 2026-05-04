@@ -1,17 +1,17 @@
 [
   {
     "name": "device_type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "fold_y_relative",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction_url",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "name": "idloghsr",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -31,17 +31,17 @@
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisit",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "scroll_y_max_relative",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -51,17 +51,17 @@
   },
   {
     "name": "time_on_page",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "viewport_h_px",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "viewport_w_px",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   }
 ]

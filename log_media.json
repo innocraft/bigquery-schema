@@ -1,12 +1,12 @@
 [
   {
     "name": "fullscreen",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -16,22 +16,22 @@
   },
   {
     "name": "idvisit",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisitor",
-    "type": "BYTES",
+    "type": "STRING",
     "mode": "NULLABLE"
   },
   {
     "name": "media_length",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "media_progress",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "name": "media_type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -66,12 +66,12 @@
   },
   {
     "name": "time_to_initial_play",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "watched_time",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   }
 ]

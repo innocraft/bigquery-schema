@@ -1,12 +1,12 @@
 [
   {
     "name": "hash",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idaction",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "name": "type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "url_prefix",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   }
 ]

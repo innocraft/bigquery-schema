@@ -1,7 +1,7 @@
 [
   {
     "name": "buster",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "name": "config_client_type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "name": "config_device_type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -146,17 +146,17 @@
   },
   {
     "name": "idaction_url",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idgoal",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idlink_va",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -166,22 +166,22 @@
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisit",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idvisitor",
-    "type": "BYTES",
+    "type": "STRING",
     "mode": "NULLABLE"
   },
   {
     "name": "items",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -211,7 +211,7 @@
   },
   {
     "name": "pageviews_before",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -226,32 +226,32 @@
   },
   {
     "name": "referer_type",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "revenue",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   },
   {
     "name": "revenue_discount",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   },
   {
     "name": "revenue_shipping",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   },
   {
     "name": "revenue_subtotal",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   },
   {
     "name": "revenue_tax",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   },
   {
@@ -266,22 +266,22 @@
   },
   {
     "name": "visitor_count_visits",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "visitor_returning",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "visitor_seconds_since_first",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "visitor_seconds_since_order",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   }
 ]

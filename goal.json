@@ -1,17 +1,17 @@
 [
   {
     "name": "allow_multiple",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "case_sensitive",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "deleted",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -21,17 +21,17 @@
   },
   {
     "name": "event_value_as_revenue",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idgoal",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
     "name": "idsite",
-    "type": "INT64",
+    "type": "INTEGER",
     "mode": "NULLABLE"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "name": "revenue",
-    "type": "FLOAT64",
+    "type": "FLOAT",
     "mode": "NULLABLE"
   }
 ]
