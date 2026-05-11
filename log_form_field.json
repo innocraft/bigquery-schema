@@ -1,100 +1,72 @@
 [
-    {
-      "name": "time_hesitation",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "idlogformpage",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "num_deletes",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "num_cursor",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "num_changes",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "field_name",
-      "mode": "NULLABLE",
-      "type": "STRING",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "idformview",
-      "mode": "NULLABLE",
-      "type": "STRING",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "idpageview",
-      "mode": "NULLABLE",
-      "type": "STRING",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "time_spent",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "submitted",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "left_blank",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "field_size",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "num_focus",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "idlogform",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    }
-  ]
+  {
+    "name": "field_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "field_size",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idformview",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idlogform",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idlogformpage",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idpageview",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "left_blank",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "num_changes",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "num_cursor",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "num_deletes",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "num_focus",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "submitted",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "time_hesitation",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "time_spent",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,16 +1,12 @@
 [
-    {
-      "name": "idloghsr",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "idsitehsr",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    }
-  ]
+  {
+    "name": "idloghsr",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idsitehsr",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

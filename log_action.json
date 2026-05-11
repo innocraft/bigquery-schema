@@ -1,37 +1,27 @@
 [
-    {
-      "name": "url_prefix",
-      "mode": "NULLABLE",
-      "type": "STRING",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "idaction",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "type",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "name",
-      "mode": "NULLABLE",
-      "type": "STRING",
-      "description": null,
-      "fields": []
-    },
-    {
-      "name": "hash",
-      "mode": "NULLABLE",
-      "type": "INTEGER",
-      "description": null,
-      "fields": []
-    }
-  ]
+  {
+    "name": "hash",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idaction",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "type",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "url_prefix",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

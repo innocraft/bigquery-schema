@@ -1,548 +1,397 @@
 [
   {
-    "name": "visitor_seconds_since_order",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visitor_seconds_since_first",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_exit_idaction_name",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_first_action_time",
-    "mode": "NULLABLE",
-    "type": "TIMESTAMP",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_exit_idaction_url",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_last_action_time",
-    "mode": "NULLABLE",
-    "type": "TIMESTAMP",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_browser_version",
-    "mode": "NULLABLE",
-    "type": "FLOAT",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_browser_engine",
-    "mode": "NULLABLE",
+    "name": "ai_agent_name",
     "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visitor_count_visits",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_total_actions",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_14",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_13",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_entry_idaction_name",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_15",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_12",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_11",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_10",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_browser_name",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_longitude",
-    "mode": "NULLABLE",
-    "type": "FLOAT",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_9",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_8",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_6",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_device_model",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_2",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_5",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "referer_type",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_3",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_4",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "campaign_placement",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visitor_returning",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_latitude",
-    "mode": "NULLABLE",
-    "type": "FLOAT",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_resolution",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_entry_idaction_url",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_total_events",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_realplayer",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_os_version",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visitor_localtime",
-    "mode": "NULLABLE",
-    "type": "TIME",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_total_time",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "campaign_keyword",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "campaign_content",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_quicktime",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "campaign_source",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_device_brand",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "campaign_medium",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_java",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_goal_buyer",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_city",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "idsite",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_client_type",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_cookie",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_browser_lang",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_total_searches",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_country",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_id",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_flash",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_region",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "referer_url",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_device_type",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_total_interactions",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "idvisitor",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_windowsmedia",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "idvisit",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_1",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_pdf",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "campaign_group",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "profilable",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_os",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "custom_dimension_7",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "referer_name",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "user_id",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "last_idlink_va",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "config_silverlight",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visitor_seconds_since_last",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "location_ip",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "referer_keyword",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "visit_goal_converted",
-    "mode": "NULLABLE",
-    "type": "INTEGER",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "campaign_id",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "campaign_keyword",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "campaign_medium",
+    "type": "STRING",
+    "mode": "NULLABLE"
   },
   {
     "name": "campaign_name",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "campaign_placement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "campaign_source",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_browser_engine",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_browser_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_browser_version",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_client_type",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_cookie",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_device_brand",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_device_model",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_device_type",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_flash",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_java",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_os",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_os_version",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_pdf",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_quicktime",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_realplayer",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_resolution",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_silverlight",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "config_windowsmedia",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_10",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_11",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_12",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_13",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_14",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_15",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_3",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_4",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_5",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_6",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_7",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_8",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "custom_dimension_9",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idsite",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idvisit",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idvisitor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "last_idlink_va",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_browser_lang",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_ip",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_latitude",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_longitude",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_region",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "profilable",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "referer_keyword",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "referer_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "referer_type",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "referer_url",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "user_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_entry_idaction_name",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_entry_idaction_url",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_exit_idaction_name",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_exit_idaction_url",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_first_action_time",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_goal_buyer",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_goal_converted",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_last_action_time",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_total_actions",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_total_events",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_total_interactions",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_total_searches",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visit_total_time",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visitor_count_visits",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visitor_localtime",
+    "type": "TIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visitor_returning",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visitor_seconds_since_first",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visitor_seconds_since_last",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visitor_seconds_since_order",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
   }
 ]

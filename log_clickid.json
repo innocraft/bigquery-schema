@@ -1,37 +1,27 @@
 [
   {
     "name": "adclickid",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "idvisitor",
-    "mode": "NULLABLE",
-    "type": "STRING",
-    "description": null,
-    "fields": []
-  },
-  {
-    "name": "server_time",
-    "mode": "NULLABLE",
-    "type": "TIMESTAMP",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "adprovider",
-    "mode": "NULLABLE",
     "type": "STRING",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
   },
   {
     "name": "idvisit",
-    "mode": "NULLABLE",
     "type": "INTEGER",
-    "description": null,
-    "fields": []
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "idvisitor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "server_time",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
   }
 ]
