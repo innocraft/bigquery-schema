@@ -20,6 +20,11 @@
     "mode": "NULLABLE"
   },
   {
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
     "name": "idfunnel",
     "type": "INTEGER",
     "mode": "NULLABLE"
