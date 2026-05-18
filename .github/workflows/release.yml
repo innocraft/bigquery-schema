@@ -31,35 +31,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.ref_name }}
         run: |
-          release_flags=()
-          if [[ "$RELEASE_TAG" == *-* ]]; then
-            release_flags+=(--prerelease)
-          fi
-
           gh release create "$RELEASE_TAG" \
             dist/bigquery-json-schemas.zip \
             --title "$RELEASE_TAG" \
             --notes "Automated schema release for $RELEASE_TAG." \
             --verify-tag \
-            "${release_flags[@]}"
-
-      - name: Publish latest release
-        env:
-          GH_TOKEN: ${{ github.token }}
-          SOURCE_TAG: ${{ github.ref_name }}
-        run: |
-          git tag --force latest "$GITHUB_SHA"
-          git push --force origin refs/tags/latest
-
-          if gh release view latest >/dev/null 2>&1; then
-            gh release upload latest dist/bigquery-json-schemas.zip --clobber
-            gh release edit latest \
-              --title latest \
-              --notes "Latest schema release from $SOURCE_TAG."
-          else
-            gh release create latest \
-              dist/bigquery-json-schemas.zip \
-              --title latest \
-              --notes "Latest schema release from $SOURCE_TAG." \
-              --verify-tag
-          fi
+            --latest
