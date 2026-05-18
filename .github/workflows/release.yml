@@ -1,0 +1,39 @@
+name: Release schemas
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Create schema release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build schema archive
+        run: |
+          mkdir -p dist
+          zip -j dist/bigquery-json-schemas.zip ./*.json
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: schemas-${{ github.run_number }}.${{ github.run_attempt }}
+          RELEASE_TITLE: BigQuery schemas ${{ github.sha }}
+        run: |
+          gh release create "$RELEASE_TAG" \
+            dist/bigquery-json-schemas.zip \
+            --title "$RELEASE_TITLE" \
+            --notes "Automated schema release for $GITHUB_SHA." \
+            --target "$GITHUB_SHA"
