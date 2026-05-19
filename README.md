@@ -50,32 +50,6 @@ If your dataset already exists and you only need to add a single table, run:
 bq mk --table YOUR_PROJECT_ID:matomo.log_visit log_visit.json
 ```
 
-## Load JSONL export data
-
-After the tables have been created, newline-delimited JSON export files can be loaded into the matching table:
-
-```bash
-bq load \
-  --source_format=NEWLINE_DELIMITED_JSON \
-  YOUR_PROJECT_ID:matomo.log_visit \
-  ./exports/log_visit.jsonl
-```
-
-For repeated loads, match the JSONL file to the table with the same base name:
-
-```bash
-PROJECT_ID="YOUR_PROJECT_ID"
-DATASET="matomo"
-EXPORT_DIR="./exports"
-
-for export_file in "${EXPORT_DIR}"/*.jsonl; do
-  table="$(basename "${export_file}" .jsonl)"
-  bq load \
-    --source_format=NEWLINE_DELIMITED_JSON \
-    "${PROJECT_ID}:${DATASET}.${table}" \
-    "${export_file}"
-done
-```
 
 ## Releases
 
