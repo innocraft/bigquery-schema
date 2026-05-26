@@ -1,0 +1,40 @@
+name: Release schemas
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions: {}
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Create schema release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build schema archive
+        run: |
+          mkdir -p dist
+          zip -j dist/bigquery-json-schemas.zip ./*.json
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" \
+            dist/bigquery-json-schemas.zip \
+            --title "$RELEASE_TAG" \
+            --notes "Automated schema release for $RELEASE_TAG." \
+            --verify-tag \
+            --latest
