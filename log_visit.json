@@ -140,6 +140,11 @@
     "mode": "NULLABLE"
   },
   {
+    "name": "consent",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
     "name": "custom_dimension_1",
     "type": "STRING",
     "mode": "NULLABLE"
